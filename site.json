@@ -1,0 +1,135 @@
+{
+ "title": "Rafayel’s Archive",
+ "tagline": "Only For Rafayel",
+ "footer": "**Về trang này**\n\nĐây là nơi AMO lưu trữ bản dịch các content của **祁煜 (Kỳ Dục) / Rafayel / ホムラ (Homura) / 기욱 (Ki Wook)** thuộc game **恋与深空 – Love and Deepspace**.\n\nTất cả bản dịch dựa trên năng lực và hiểu biết cá nhân, nếu có sai sót rất mong nhận được góp ý của mọi người.\n\n[Facebook](https://www.facebook.com/profile.php?id=61555806527177) · [YouTube](https://www.youtube.com/@benguoica) · [Góp ý ẩn danh](https://forms.gle/dJ5yrABkMjaQjsPg7)\n\nBản dịch thuộc AMO. Vui lòng không đăng lại khi chưa được sự cho phép.",
+ "menu": [
+  {
+   "slug": "home",
+   "title": "HOME"
+  },
+  {
+   "slug": "story",
+   "title": "Story",
+   "children": [
+    {
+     "slug": "main-story",
+     "title": "Main Story"
+    },
+    {
+     "slug": "world-underneath",
+     "title": "World Underneath"
+    }
+   ]
+  },
+  {
+   "slug": "date",
+   "title": "Date",
+   "children": [
+    {
+     "slug": "cards",
+     "title": "Cards"
+    },
+    {
+     "slug": "anecdotes",
+     "title": "Anecdotes"
+    },
+    {
+     "slug": "secret-times",
+     "title": "Secret Times"
+    },
+    {
+     "slug": "moment",
+     "title": "Moment"
+    },
+    {
+     "slug": "call",
+     "title": "Call"
+    },
+    {
+     "slug": "message",
+     "title": "Message"
+    }
+   ]
+  },
+  {
+   "slug": "event",
+   "title": "Event/Banner",
+   "children": [
+    {
+     "slug": "event-2024",
+     "title": "2024"
+    },
+    {
+     "slug": "event-2025",
+     "title": "2025"
+    },
+    {
+     "slug": "event-2026",
+     "title": "2026"
+    }
+   ]
+  },
+  {
+   "slug": "combat",
+   "title": "Combat",
+   "children": [
+    {
+     "slug": "companion",
+     "title": "Companion"
+    },
+    {
+     "slug": "abyssal-chaos",
+     "title": "Abyssal Chaos"
+    },
+    {
+     "slug": "unicorn-operation",
+     "title": "Unicorn Operation"
+    }
+   ]
+  },
+  {
+   "slug": "khac",
+   "title": "Khác",
+   "children": [
+    {
+     "slug": "official",
+     "title": "Official"
+    },
+    {
+     "slug": "little-things",
+     "title": "Little Things"
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "text": "Kho lưu trữ bản dịch content của Kỳ Dục / Rafayel (恋与深空 – Love and Deepspace): cốt truyện, hẹn hò, sự kiện và chiến đấu.",
+  "cta": {
+   "label": "Đọc Main Story",
+   "slug": "main-story"
+  },
+  "more": "cards",
+  "picks": [
+   {
+    "title": "Oceanic Nightfall",
+    "image": "https://myabysswalkermylonglostocean.wordpress.com/wp-content/uploads/2026/04/oceanic-nightfall.jpg"
+   },
+   {
+    "title": "Sapphire Scar",
+    "image": "https://myabysswalkermylonglostocean.wordpress.com/wp-content/uploads/2026/04/sapphire-scar.jpg"
+   },
+   {
+    "title": "Tidefall Waves",
+    "image": "https://myabysswalkermylonglostocean.wordpress.com/wp-content/uploads/2026/04/tidefall-waves.jpg"
+   },
+   {
+    "title": "Sunlit Raindrop",
+    "image": "https://myabysswalkermylonglostocean.wordpress.com/wp-content/uploads/2026/04/sunlit-raindrop.jpg"
+   },
+   {
+    "title": "Promised Wildfire",
+    "image": "https://myabysswalkermylonglostocean.wordpress.com/wp-content/uploads/2026/04/promised-wildfire.jpg"
+   }
+  ]
+ }
+}
