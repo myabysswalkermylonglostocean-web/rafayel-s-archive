@@ -74,3 +74,39 @@ th{background:var(--panel)}
  #pickList button{width:56px;height:56px}
 }
 @media(prefers-reduced-motion:reduce){.stage img{transition:none}}
+:root{--bg:#fff7fa;--panel:#fff;--ink:#4a2438;--mute:#8a5b70;--line:#f6d3e0;--link:#c2487a;--soft:#f4a9c5;
+--head:#ffdbe8;--head-ink:#4a2438;--accent:#cc3c76;--ember:#e96a9b}
+@media(prefers-color-scheme:dark){:root{--bg:#241420;--panel:#321c2b;--ink:#fbe6ee;--mute:#c9a0b3;--line:#4a2a3c;--link:#ffa9c8;--soft:#b9577f;--head:#321c2b;--head-ink:#fbe6ee;--accent:#ffa9c8}}
+
+.top{background:var(--head)}
+body.home .top{background:transparent;--head-ink:#4a2438;--accent:#cc3c76}
+.brand{color:var(--head-ink)}
+#nav a{color:var(--head-ink)}
+#nav>ul>li>a:hover,#nav>ul>li>a.on{color:var(--accent);font-weight:600}
+#nav .sub{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px -12px rgba(150,50,90,.35)}
+#nav .sub a{color:var(--ink);border-radius:8px}
+#nav .sub a:hover,#nav .sub a.on{background:var(--bg);color:var(--link)}
+#menuBtn{border:1px solid currentColor;color:var(--head-ink)}
+
+#hero{color:#4a2438;background:radial-gradient(70% 80% at 62% 55%,#ffc2d8 0,transparent 62%),linear-gradient(135deg,#fff3f7 0%,#ffdbe8 55%,#f9bcd3 100%)}
+#hero h1 em{color:#cc3c76}
+#hero .copy p{color:#6b3a52}
+.pill{border-color:#d9608a;background:rgba(255,255,255,.55);color:#4a2438}
+.pill:hover{background:#fff}
+.stage img{background:#ffd0e0;box-shadow:0 30px 60px -20px rgba(150,50,90,.4),0 0 90px rgba(255,255,255,.8)}
+.stage figcaption{color:#6b3a52}
+#pickList button{border-color:rgba(255,255,255,.85);box-shadow:0 8px 20px rgba(150,50,90,.3)}
+#pickList button[aria-pressed=true]{border-color:#fff;outline-color:#d9608a}
+.more{color:#4a2438}
+.more:hover{color:#cc3c76}
+
+.prose img,.vid iframe{border-radius:12px}
+.prose blockquote{border-left-color:var(--soft)}
+.kids a{border-radius:12px}
+
+@media(max-width:900px){
+ #nav .sub{background:none;border:0;box-shadow:none}
+ body.open #nav{background:var(--bg)}
+ body.open #nav a{color:var(--ink)}
+ body.open #nav>ul>li>a.on{color:var(--link)}
+}
